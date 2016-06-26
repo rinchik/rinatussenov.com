@@ -19,7 +19,6 @@ a:hover {
     height: 100%;
     width: 100%;
     text-align: center;
-    font-size: 15px;
 }
 
 #top {
@@ -28,7 +27,7 @@ a:hover {
 }
 
 #top img {
-    max-height: 300px;
+    width: 300px;
 }
 
 #footer {
@@ -38,4 +37,15 @@ a:hover {
 
 #footer a {
     margin-right: 10px;
+}
+
+@media (max-width:600px) {
+    #top {
+        top: 0;
+    }
+
+    #top img {
+        width: 500px;
+    }
+
 }
