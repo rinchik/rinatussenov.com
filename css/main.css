@@ -49,13 +49,18 @@ a:hover {
     }
 
     #footer {
-        top: 0px;
-        margin-left: 35%
+        top: 10%;
     }
 
     #footer a {
         margin-bottom: 1em;
-        display: block;
+        line-height: 2em;
+        text-align: left;
+    }
+
+    #footer a {
+        margin-bottom: 1em;
+        line-height: 2em;
         text-align: left;
     }
 
