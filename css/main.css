@@ -39,13 +39,24 @@ a:hover {
     margin-right: 10px;
 }
 
-@media (max-width:600px) {
+@media only screen and (max-width:600px) {
     #top {
         top: 0;
     }
 
     #top img {
-        width: 500px;
+        width: 90%;
+    }
+
+    #footer {
+        top: 5%;
+        margin-left: 35%
+    }
+
+    #footer a {
+        margin-bottom: 1em;
+        display: block;
+        text-align: left;
     }
 
 }
