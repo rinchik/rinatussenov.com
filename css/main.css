@@ -39,6 +39,17 @@ a:hover {
     margin-right: 10px;
 }
 
+.experience {
+}
+
+.experiecne__title:active + .experience {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transition: transform 3s ease;
+}
+
+
 @media only screen and (max-width:600px) {
     #top {
         top: 0;
