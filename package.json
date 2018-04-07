@@ -10,7 +10,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "yarn build && yarn next export"
   },
   "author": "Rinat Ussenov <rinat.ussenov@gmail.com>",
   "license": "MIT",

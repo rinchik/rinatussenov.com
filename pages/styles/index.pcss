@@ -7,7 +7,6 @@
 body {
   background-color: #000;
   font-family:  "Open Sans", sans-serif;
-  letter-spacing: .6px;
   color: #ECE9E9;
   font-size: 16px;
 }
@@ -62,6 +61,60 @@ body {
       text-decoration: none;
     }
   }
+
+  & .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & .articles {
+      display: flex;
+      flex-direction: row;
+      width: 80%;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+
+      & .article {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 40rem;
+        margin: 2rem;
+
+        & .logo--link {
+          width: 10rem;
+          margin-right: 2rem;
+          & .article--logo {
+            width: 100%;
+          }
+        }
+
+        & .article--body {
+          & .article--header {
+            display: inline-block;
+            font-size: 1.5rem;
+            line-height: 2rem;
+            color: #FFF;
+            margin-bottom: 1rem;
+            font-weight: bold;
+          }
+
+          & .article--content {
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+            color: #D3D3D3;
+
+            & .content--more {
+              font-size: 1rem;
+              margin-top: 1rem;
+              display: block;
+              color: #D3D3D3;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 
@@ -88,6 +141,22 @@ body {
 
       & a {
         margin: 1rem 0;
+      }
+    }
+
+    & .content {
+      & .articles {
+        width: 100%;
+
+        & .article {
+          flex-direction: column;
+          width: 90%;
+
+          & .logo--link {
+            display: inline-block;
+            margin: 2rem auto;
+          }
+        }
       }
     }
 
