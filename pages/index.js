@@ -45,6 +45,68 @@ class Index extends React.Component {
                         <h1>Rinat Ussenov</h1>
                         <h2>Software Engineer</h2>
                     </div>
+                    <div className="content">
+                        <div className="articles">
+                            <div className="article">
+                                <a className="logo--link"
+                                   href="https://blog.rinatussenov.com/vanilla-javascript-development-in-2018-c076d121e903"
+                                   target="_blank">
+                                    <img className="article--logo" src="static/images/js-logo.jpg"
+                                         alt="Vanilla JavaScript Development in 2018"/>
+                                </a>
+                                <div className="article--body">
+                                    <a className="article--header"
+                                       href="https://blog.rinatussenov.com/vanilla-javascript-development-in-2018-c076d121e903"
+                                       target="_blank">
+                                        Vanilla JavaScript Development in 2018
+                                    </a>
+                                    <p className="article--content">
+                                        When using Vanilla JavaScript in 2018, you should have full control over each
+                                        DOM
+                                        element at any time, with the ability to dynamically and programmatically alter
+                                        the
+                                        state of the any element in accordance with your application’s business logic
+                                        and
+                                        internal algorithms.
+                                        <a className="content--more"
+                                           href="https://blog.rinatussenov.com/vanilla-javascript-development-in-2018-c076d121e903"
+                                           target="_blank">
+                                            read more in Engineer&#39;s Notes...
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="article">
+                                <a className="logo--link"
+                                   href="https://blog.rinatussenov.com/vanilla-javascript-development-in-2018-c076d121e903"
+                                   target="_blank">
+                                    <img className="article--logo" src="static/images/js-logo.jpg"
+                                         alt="Vanilla JavaScript Development in 2018"/>
+                                </a>
+                                <div className="article--body">
+                                    <a className="article--header"
+                                       href="https://blog.rinatussenov.com/vanilla-javascript-development-in-2018-c076d121e903"
+                                       target="_blank">
+                                        Vanilla JavaScript Development in 2018
+                                    </a>
+                                    <p className="article--content">
+                                        When using Vanilla JavaScript in 2018, you should have full control over each
+                                        DOM
+                                        element at any time, with the ability to dynamically and programmatically alter
+                                        the
+                                        state of the any element in accordance with your application’s business logic
+                                        and
+                                        internal algorithms.
+                                        <a className="content--more"
+                                           href="https://blog.rinatussenov.com/vanilla-javascript-development-in-2018-c076d121e903"
+                                           target="_blank">
+                                            read more in Engineer&#39;s Notes...
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div className="footer">
                         <a href="https://blog.rinatussenov.com" target="_blank">Engineer&#39;s Notes</a>
                         <a href="https://www.linkedin.com/in/rinatussenov" target="_blank" id="linkedin">LinkedIn</a>
