@@ -1,6 +1,6 @@
 import React from "react";
 
-import stylesheet from "./styles/index.pcss";
+import stylesheet from "./index.pcss";
 
 class Article extends React.Component {
 
@@ -24,7 +24,7 @@ class Article extends React.Component {
                     <p className="article--content">
                         {this.props.content}
                         <a className="content--more"
-                           href{this.props.link}
+                           href={this.props.link}
                            target="_blank">
                             read more in Engineer&#39;s Notes...
                         </a>
