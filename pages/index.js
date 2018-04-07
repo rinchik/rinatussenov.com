@@ -14,7 +14,7 @@ class Index extends React.Component {
                 <Head>
                     <title>Rinat Ussenov - Software Engineer</title>
                     <meta name="keywords"
-                          content="resume, Rinat's personal page, software engineer, programmer, front-end engineer, backend engeneer, software developer, javascript, python, java, nodejs, react, backbonejs, scala, Play Framework"/>
+                          content="resume, Rinat's personal page, software engineer, programmer, front-end engineer, backend engineer, software developer, javascript, python, java, nodejs, react, scala, Play Framework"/>
                     <meta name="description"
                           content="Rinat Ussenov, software engineer, front-end architecture, thrives on building highly scalable distributed enterprise applications."/>
                     <link rel="apple-touch-icon" sizes="57x57" href="static/images/icon/apple-icon-57x57.png"/>
@@ -39,14 +39,13 @@ class Index extends React.Component {
                     <style dangerouslySetInnerHTML={{__html: stylesheet}}/>
                     <GA/>
                 </Head>
-                <div id="container">
-                    <div id="top">
-                        <img src="static/images/signature.png" alt="Rinat Ussenov's signature"/>
+                <div className="container">
+                    <div className="header">
+                        <img src="static/images/logo.png" alt="Rinat Ussenov Logo" className="logo"/>
                         <h1>Rinat Ussenov</h1>
                         <h2>Software Engineer</h2>
                     </div>
-                    <div id="app"/>
-                    <div id="footer">
+                    <div className="footer">
                         <a href="https://blog.rinatussenov.com" target="_blank">Engineer&#39;s Notes</a>
                         <a href="https://www.linkedin.com/in/rinatussenov" target="_blank" id="linkedin">LinkedIn</a>
                         <a href="https://github.com/rinchik" target="_blank">GitHub</a>
