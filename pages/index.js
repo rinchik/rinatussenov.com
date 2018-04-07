@@ -1,6 +1,7 @@
 import React from "react";
 
 import Head from 'next/head';
+import GA from '../src/vendor/google-analytics'
 
 import stylesheet from "./styles/index.pcss";
 
@@ -25,7 +26,8 @@ class Index extends React.Component {
                     <link rel="apple-touch-icon" sizes="144x144" href="static/images/icon/apple-icon-144x144.png"/>
                     <link rel="apple-touch-icon" sizes="152x152" href="static/images/icon/apple-icon-152x152.png"/>
                     <link rel="apple-touch-icon" sizes="180x180" href="static/images/icon/apple-icon-180x180.png"/>
-                    <link rel="icon" type="image/png" sizes="192x192" href="static/images/icon/android-icon-192x192.png"/>
+                    <link rel="icon" type="image/png" sizes="192x192"
+                          href="static/images/icon/android-icon-192x192.png"/>
                     <link rel="icon" type="image/png" sizes="32x32" href="static/images/icon/favicon-32x32.png"/>
                     <link rel="icon" type="image/png" sizes="96x96" href="static/images/icon/favicon-96x96.png"/>
                     <link rel="icon" type="image/png" sizes="16x16" href="static/images/icon/favicon-16x16.png"/>
@@ -35,12 +37,13 @@ class Index extends React.Component {
                     <meta name="theme-color" content="#000000"/>
                     <meta name="viewport" content="width=device-width"/>
                     <style dangerouslySetInnerHTML={{__html: stylesheet}}/>
+                    <GA/>
                 </Head>
                 <div id="container">
                     <div id="top">
                         <img src="static/images/signature.png" alt="Rinat Ussenov's signature"/>
-                            <h1>Rinat Ussenov</h1>
-                            <h2>Software Engineer</h2>
+                        <h1>Rinat Ussenov</h1>
+                        <h2>Software Engineer</h2>
                     </div>
                     <div id="app"/>
                     <div id="footer">
@@ -49,7 +52,6 @@ class Index extends React.Component {
                         <a href="https://github.com/rinchik" target="_blank">GitHub</a>
                         <a href="http://stackoverflow.com/users/2387506/rinchik" target="_blank">Stack Overflow</a>
                     </div>
-                    <script src="dist/bundle.js" type="application/javascript"></script>
                 </div>
             </div>
 
