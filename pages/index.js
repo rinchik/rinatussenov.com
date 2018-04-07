@@ -47,7 +47,7 @@ class Index extends React.Component {
                     </div>
                     <div id="app"/>
                     <div id="footer">
-                        <a href="https://blog.rinatussenov.com" target="_blank">Engineer's Notes</a>
+                        <a href="https://blog.rinatussenov.com" target="_blank">Engineer&#39;s Notes</a>
                         <a href="https://www.linkedin.com/in/rinatussenov" target="_blank" id="linkedin">LinkedIn</a>
                         <a href="https://github.com/rinchik" target="_blank">GitHub</a>
                         <a href="http://stackoverflow.com/users/2387506/rinchik" target="_blank">Stack Overflow</a>
