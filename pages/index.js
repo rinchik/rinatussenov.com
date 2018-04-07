@@ -59,7 +59,7 @@ class Index extends React.Component {
                         <div className="articles">
                             <Article
                                 link="https://blog.rinatussenov.com/juggling-bits-in-javascript-bitmasks-128ad5f31bed"
-                                logo="static/images/bitmasks.png"
+                                logo="static/images/bitmasks.jpg"
                                 header="Juggling bits in JavaScript: bitmasks"
                                 content="My first ever encounter with bitmasks happened about two years ago when I was looking into LDAP implementation with Node.js, apparently AD (Active Directory) is using bitmasks to create, control and manipulate user account’s properties (flags), which was very interesting. "
                             />
@@ -71,19 +71,19 @@ class Index extends React.Component {
                             />
                             <Article
                                 link="https://blog.rinatussenov.com/algorithmic-trading-with-nodejs-gdax-pocket-ui-150e227d0d6a"
-                                logo="static/images/gdax-pocket-ui.png"
+                                logo="static/images/gdax-pocket-ui.jpg"
                                 header="GDAX Pocket UI"
                                 content="I have written some time ago about Algorithmic Trading, and how great it is for Software Engineers to exercise their brains with. I have provided some code snippets and a general logical guideline about the paths, goals and potential opportunities algorithmic trading can lead to. Now it is time to step it up and provide a ready to use, open sourced, personal trading application."
                             />
                             <Article
                                 link="https://blog.rinatussenov.com/automating-manual-visual-regression-tests-with-python-and-selenium-be66be950196"
-                                logo="static/images/regression.png"
+                                logo="static/images/regression.jpg"
                                 header="Automating Visual Regression Tests with Python and Selenium"
                                 content="It all started when, as part of the continues improvement, we made some CSS refactoring changes for the lordandtaylor.com website and in order to roll changes out into production a complete visual regression was required."
                             />
                             <Article
                                 link="https://blog.rinatussenov.com/useful-math-divisibility-signs-fbc08baf20c6"
-                                logo="static/images/useful-math-logo.png"
+                                logo="static/images/useful-math-logo.jpg"
                                 header="Useful Math: Divisibility Signs"
                                 content="I have learned quite a few of divisibility signs in I think 6th grade and this knowledge remains one of those useful things that I still use in my everyday life."
                             />
