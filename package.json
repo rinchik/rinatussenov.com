@@ -7,6 +7,20 @@
     "url": "git@github.com:rinchik/rinatussenov.com.git",
     "type": "git"
   },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
   "author": "Rinat Ussenov <rinat.ussenov@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^8.2.0",
+    "cssnano": "^3.10.0",
+    "glob": "^7.1.2",
+    "next": "^5.1.0",
+    "postcss-cssnext": "^3.1.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1"
+  }
 }
