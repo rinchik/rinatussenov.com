@@ -13,7 +13,7 @@ class Article extends React.Component {
                    href={this.props.link}
                    target="_blank">
                     <img className="article--logo" src={this.props.logo}
-                         alt={this.props.header}/>
+                         alt={`Rinat Ussenov: ${this.props.header}`}/>
                 </a>
                 <div className="article--body">
                     <a className="article--header"
