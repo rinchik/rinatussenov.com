@@ -70,6 +70,12 @@ class Index extends React.Component {
                                 content="When using Vanilla JavaScript in 2018, you should have full control over each DOM element at any time, with the ability to dynamically and programmatically alter the state of the any element in accordance with your application’s business logic and internal algorithms."
                             />
                             <Article
+                                link="https://blog.rinatussenov.com/text-analysis-markov-chains-and-bible-quotes-generator-fd0fa09ced20"
+                                logo="static/images/text-generator.jpg"
+                                header="Text Analysis, Markov Chains and Bible Quotes Generator"
+                                content="Text analysis and patterns are very interesting topics for me. I think every author has their own unique, distinctive pattern. The way they build sentences and phrases, not only in terms of tone, but the subconscious choices of word pairings and sequences. How their sentences begin and end, and what they put in the middle; they leave their cerebral fingerprints on paper, blog posts or even FaceBook status updates."
+                            />
+                            <Article
                                 link="https://blog.rinatussenov.com/algorithmic-trading-with-nodejs-gdax-pocket-ui-150e227d0d6a"
                                 logo="static/images/gdax-pocket-ui.jpg"
                                 header="GDAX Pocket UI"
