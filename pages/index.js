@@ -93,7 +93,12 @@ class Index extends React.Component {
                                 header="Useful Math: Divisibility Signs"
                                 content="I have learned quite a few of divisibility signs in I think 6th grade and this knowledge remains one of those useful things that I still use in my everyday life."
                             />
-
+                            <Article
+                                link="https://blog.rinatussenov.com/personal-private-vpn-server-979cc9f0abaa"
+                                logo="static/images/vpn.jpg"
+                                header="Setup your Personal, Private VPN Server"
+                                content="Exposing my online behavior, habits and and patterns has always been a great concern for me. A single idea about my identity becoming a product someone can market and profit on is quite nasty, but it is so much more than that, it is also about personal security and privacy."
+                            />
                         </div>
                     </div>
                     <div className="footer">
