@@ -30,14 +30,13 @@ class Index extends React.Component {
         . #######::. ######::. ######:: ########: ##::. ##:. #######::::. ###::::
         :.......::::......::::......:::........::..::::..:::.......::::::...:::::
 
+
+        You can contact me on LinkedIn: https://www.linkedin.com/in/rinatussenov
                                                                                  
         `
 
         log.call(this, logo);
 
-        const info = 'You can contact me on LinkedIn: https://www.linkedin.com/in/rinatussenov';
-
-        log.call(this, info);
     }
 
 
