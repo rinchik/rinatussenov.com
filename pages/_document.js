@@ -18,10 +18,6 @@ export default class Skubana extends Document {
                 <Head>
                     <meta charSet='utf-8'/>
                     <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
-                    <link href="/static/css/font-awesome.css" rel="stylesheet"/>
-                    <link rel="stylesheet" id="wpb-google-fonts-css"
-                          href="/static/css/openSans.css"
-                          type="text/css" media="all"/>
                 </Head>
                 <body>
                     <Main/>
