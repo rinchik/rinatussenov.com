@@ -1,7 +1,6 @@
 import React from "react";
 
 import Head from 'next/head';
-import GA from '../src/vendor/google-analytics';
 import Article from '../src/components/index-article';
 
 import stylesheet from "./styles/index.pcss";
@@ -72,13 +71,12 @@ class Index extends React.Component {
                           content="ecommerce event, ecommerce conference, amazon conference, ecommerce strategy, ecommerce leaders, ecommerce technology, ecommerce education, ecommerce learning"/>
                     <meta property="og:title" content="Rinat Ussenov: Software Engineer"/>
                     <meta property="og:description"
-                          content="Personal Website, info, articles and media links"/>
+                          content="Rinat: UssenovPersonal Website, info, articles and media links"/>
                     <meta property="og:image" content="/static/images/logo.png"/>
                     <meta property="og:url" content="https://rinatussenov.com"/>
                     <meta name="twitter:card"
                           content="Personal Website, info, articles and media links"/>
                     <style dangerouslySetInnerHTML={{__html: stylesheet}}/>
-                    <GA/>
                 </Head>
                 <div className="container">
                     <div className="header">
