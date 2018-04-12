@@ -45,7 +45,7 @@ class Index extends React.Component {
                 <Head>
                     <title>Rinat Ussenov - Software Engineer</title>
                     <meta name="keywords"
-                          content="resume, Rinat personal page, software engineer, programmer, front-end engineer, backend engineer, software developer, javascript, python, java, nodejs, react, scala, Play Framework"/>
+                          content="Rinat resume, Rinat personal page, software engineer, programmer, front-end engineer, backend engineer, software developer, javascript, python, java, nodejs, react, VanillaJS"/>
                     <meta name="description"
                           content="Rinat Ussenov, software engineer, front-end architecture, thrives on building highly scalable distributed enterprise applications."/>
                     <link rel="apple-touch-icon" sizes="57x57" href="static/images/icon/apple-icon-57x57.png"/>
@@ -67,8 +67,6 @@ class Index extends React.Component {
                     <meta name="msapplication-TileImage" content="static/images/icon/ms-icon-144x144.png"/>
                     <meta name="theme-color" content="#000000"/>
                     <meta name="viewport" content="width=device-width"/>
-                    <meta name="keywords"
-                          content="ecommerce event, ecommerce conference, amazon conference, ecommerce strategy, ecommerce leaders, ecommerce technology, ecommerce education, ecommerce learning"/>
                     <meta property="og:title" content="Rinat Ussenov: Software Engineer"/>
                     <meta property="og:description"
                           content="Rinat: UssenovPersonal Website, info, articles and media links"/>
