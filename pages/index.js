@@ -115,6 +115,12 @@ class Index extends React.Component {
                                 content="It all started when, as part of the continues improvement, we made some CSS refactoring changes for the lordandtaylor.com website and in order to roll changes out into production a complete visual regression was required."
                             />
                             <Article
+                                link="https://blog.rinatussenov.com/is-javascript-type-coercion-a-good-thing-83f4e1a17fb2"
+                                logo="static/images/js-logo.jpg"
+                                header="Is Type Coercion in JavaScript a Good Thing?"
+                                content="Many experienced software developers usually cringe when come around JavaScript (voluntary or not) and it’s native language features as type coercion, concepts of “truthiness” and “falsiness ” etc."
+                            />
+                            <Article
                                 link="https://blog.rinatussenov.com/useful-math-divisibility-signs-fbc08baf20c6"
                                 logo="static/images/useful-math-logo.jpg"
                                 header="Useful Math: Divisibility Signs"
