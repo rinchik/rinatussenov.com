@@ -127,6 +127,12 @@ class Index extends React.Component {
                                 content="I have learned quite a few of divisibility signs in I think 6th grade and this knowledge remains one of those useful things that I still use in my everyday life."
                             />
                             <Article
+                                link="https://blog.rinatussenov.com/gdax-algorithmic-trading-with-nodejs-701959d78d97"
+                                logo="static/images/algo-trading-nodejs.png"
+                                header="Algorithmic trading with NodeJs"
+                                content="With our access to the stock market, algorithmic trading (algo-trading, black-box trading etc.) seems like very fun side-project, an attractive option for potentially increasing our wealth as well as a great brain exercise for developers."
+                            />
+                            <Article
                                 link="https://blog.rinatussenov.com/personal-private-vpn-server-979cc9f0abaa"
                                 logo="static/images/vpn.jpg"
                                 header="Setup your Personal, Private VPN Server"
