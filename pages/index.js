@@ -115,6 +115,12 @@ class Index extends React.Component {
                                 content="It all started when, as part of the continues improvement, we made some CSS refactoring changes for the lordandtaylor.com website and in order to roll changes out into production a complete visual regression was required."
                             />
                             <Article
+                                link="https://blog.rinatussenov.com/letter-to-the-scientist-neighbor-a-p-chekhov-cabdea2952fb"
+                                logo="static/images/lettter-to-the-neighbour.png"
+                                header="Letter To the Scientist Neighbor, A. P. Chekhov"
+                                content="Don't laugh at me because of my silly, old man's writing manner. You write that on the moon i.e. crescent, people live and tribes. It can not ever be possible because if there were people living on the moon the they would block moon's magic light with their houses and rich pastures. People can't live without the rain and it rains down not up to the moon."
+                            />
+                            <Article
                                 link="https://blog.rinatussenov.com/is-javascript-type-coercion-a-good-thing-83f4e1a17fb2"
                                 logo="static/images/js-logo.jpg"
                                 header="Is Type Coercion in JavaScript a Good Thing?"
